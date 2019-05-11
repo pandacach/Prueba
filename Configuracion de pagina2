@@ -1,0 +1,283 @@
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin:0;
+	background-color: #ABF68C;
+}	
+/*Estilos globales*/
+.contenedor{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+}
+.boton1{
+	height: 38px;
+	background-color: #F34B0C;
+}
+/* header*/
+header{
+	background-color: #3C960B;
+	color:#fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #1293d4;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #mark{
+    float: left;
+}
+header #mark h1{
+    margin 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .resaltado, header .actual a{
+	color: #1293d4;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+
+/*Cabecera con imagen*/
+#cabecera{
+	min-height: 500px;
+	background: url('../imagenes/empsostenible.jpg') no-repeat 0 0px;
+	background-size: cover;
+	text-align: center;
+	color:#96480B;
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;		
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+/*Formulario Boletin*/
+#boletin{
+	padding: 15px;
+	color: #fff;
+	background: #24282b;
+}
+#boletin h1{
+    float: left; 
+}
+#boletin form{
+	float: right;
+	margin-top: 15px;
+}
+
+#boletin input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/*Boxes*/
+#boxesmain{
+	margin-top: 20px;
+}
+
+#boxesmain .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#boxesmain .box img{
+	width: 250px;
+}
+
+/*Footer pie de pagina*/
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color:#fff;
+	background-color: #1293d4;
+	text-align: center; 	
+}
+
+/*En la pagina Proyecto */
+/*Cambio de tipo de letra*/
+#mainPro h1{
+	font-size: 30px;
+	text-align: center;
+}
+#mainPro p{
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.enlacesext a{
+ font: 20px Arial, Helvetica, sans-serif;
+ padding: 35px;
+}
+.enlacesext h3{
+		color:#1131D9;
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline red;
+	padding: 30px;
+	font-size: 40px;
+}
+/*En la pagina tipo ejemplo ecologia-Galeria*/
+
+#galeria{
+	background:#BDBFDB;
+}
+#galeria .boxGal h1{
+	color: #0B1596;
+	text-align: center;
+	padding: 5px;
+}
+#galeria .galery{
+		width: 90%;
+	    margin-left: auto;
+	    list-style: none;
+	    padding: 20px;
+	    box-sizing: border-box;
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-around;
+}
+
+#galeria .galery li{
+	margin-left: 5px;
+}
+#galeria .galery img{
+	width: 150px;
+	height: 150px; 
+}
+/*Estilos del modal*/
+.modal{
+	display: none;
+}
+.modal:target{
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0,8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.modal{
+	color:#D9111D;
+	font-size: 30px;
+	text-align: center;
+	margin: 200px 0;
+}
+.image{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin:0 10px;
+
+}
+.image a:nth-child(2){
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+.image img{
+	width: 500px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+}
+.cerrar{
+	display: block;
+	background: #fff;
+	width: 25px;
+    height: 25px;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px; 
+}
+
+/*En la pagina ejemplo de ecologia- videos*/
+#videos{
+	background:#1A23A3;
+	padding: 60px;
+
+}
+#videos h1{
+	color: #fff;
+	text-align: center;
+}
+
+/*Videos para la apgina de ehemplos ecologicos*/
+/*Estilos para  la pagina de video*/
+/*styles for Cajas*/
+#videos{
+	margin-top: 20px;
+}
+
+#videos .videco{
+ float: left;
+ text-align: center;
+ width: 30%;
+ padding: 10px;
+ margin-right: 200px;
+ display: all;
+}
+#videos .videco img{
+	width: 50px;
+	}
+
+/*Estilo pagina de subida y descarga de informacion*/
+#descarga h1{
+	font-size: 25px;
+	color:#fff;
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline red;
+	padding: 35px;
+}
+#descarga a{
+    font-size: 18px;
+    text-align: center;
+    padding: 35px;
+}
